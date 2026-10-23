@@ -1,0 +1,7 @@
+# Host tool: build for a PC, not the watch (overrides ../../.cargo/config.toml).
+# Linux default; gallery.ps1 passes --target x86_64-pc-windows-msvc on Windows.
+[build]
+target = "x86_64-unknown-linux-gnu"
+
+[unstable]
+build-std = []

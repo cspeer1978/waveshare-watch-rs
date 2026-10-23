@@ -1,0 +1,18 @@
+/target
+/tools/preview/target
+/tools/preview/out
+
+# Firmware images: they contain the Wi-Fi passwords and Home Assistant token
+# that were baked in at build time. Never commit them.
+*.bin
+*.elf
+
+# Battery logs pulled from a watch (tools/preview/real.csv is sample data and is kept)
+*.csv
+!tools/preview/real.csv
+
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db

@@ -1,0 +1,6 @@
+[package]
+name = "esp-storage"
+version = "0.8.1"
+edition = "2021"
+[dependencies]
+embedded-storage = "0.3"

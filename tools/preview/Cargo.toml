@@ -1,0 +1,12 @@
+[package]
+name = "preview"
+version = "0.1.0"
+edition = "2021"
+[dependencies]
+libm = "0.2"
+qrcodegen-no-heap = "1.8"
+embedded-graphics = "0.8"
+image = { version = "0.25", default-features = false, features = ["png"] }
+embassy-time = { version = "0.5", features = ["std", "generic-queue-8"] }
+embedded-storage = "0.3"
+esp-storage = { path = "fake-esp-storage" }
